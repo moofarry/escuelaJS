@@ -129,3 +129,25 @@ body {
   .footer a:hover {
     text-decoration: underline;
   }
+  @media only screen and (max-width: 600px) {
+    .header {
+      justify-content: center;
+    }
+    .login{
+      margin-top: -5;
+
+    }
+    .login__container {
+      background-color: transparent;
+      border: none;
+      padding: 0px;
+      width: 100%;
+    }
+    .login__container--remember--me{
+      align-items: center;
+    }
+    .footer {
+      align-items: center;
+      flex-direction: column;
+    }
+  }
