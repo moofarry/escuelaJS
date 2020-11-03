@@ -1,10 +1,10 @@
-40 //numero
+40 //number
 "Jhon Fredy Moofarry" //string
 true //bool
 false //bool
 
-null
-undefined
+null //null
+undefined 
 
-[1,2,3]
+[1,2,3] 
 {nombre : jhon}
