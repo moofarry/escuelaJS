@@ -68,6 +68,12 @@ html {
   color: #989897;
   font-size: 13px;
 }
+.login .login_container .login_container--form .login_container--remember--me a {
+  color: #989897;
+}
+.login .login_container .login_container--form .login_container--register {
+  color: #989897;
+}
 .login .login_container .login_container--social--media > div {
   display: flex;
   align-items: center;

@@ -71,11 +71,17 @@ html {
             .login_container--remember--me {
                 margin-top: 8px;
                 width: 100%;
-                display: flex;
-                
+                display: flex;                
                 justify-content: space-between;
                 color: $font_color;
                 font-size: 13px;
+            }
+            .login_container--remember--me a {
+                color: $font_color;
+                
+            }
+            .login_container--register {
+                color: $font_color
             }
 
         }
@@ -93,8 +99,6 @@ html {
     }
 }
 
-
-
 .header {
     background-color: transparent;
     width: 100%;
@@ -109,8 +113,6 @@ html {
         margin-left: 45px;
     }
 }
-
-
 
 
 
