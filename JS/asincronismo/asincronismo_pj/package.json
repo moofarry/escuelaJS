@@ -1,0 +1,16 @@
+{
+  "name": "asincronismo_pj",
+  "version": "1.0.0",
+  "description": "asincronismo  JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promesas",
+    "async"
+  ],
+  "author": "Jhon Fredy Moofarry",
+  "license": "ISC"
+}
