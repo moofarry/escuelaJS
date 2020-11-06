@@ -13,3 +13,5 @@ var b = a + "";
 typeof b
 
 var c = String(a) //cast
+
+var d = Number(c)
