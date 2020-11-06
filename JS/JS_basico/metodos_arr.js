@@ -9,22 +9,22 @@ var articulos = [
     {nombre : "Audifonos", costo : 1700},
 ]
 
-var articulosFiltrados = articulos.filter(function (articulo) {
+var articulosFiltrados = articulos.filter(function (articulo) { //filtra articulos donde su costo es menor  a 500 
     return articulo.costo <=  500 
 })
 
-var nombreArticulos = articulos.map(function (articulo) {
+var nombreArticulos = articulos.map(function (articulo) { 
     return articulo.nombre    
 })
 
-var encuentraArticulo = articulos.find(function (articulo) {
+var encuentraArticulo = articulos.find(function (articulo) { //encuentra uno en especifico
     return articulo.nombre == "TV"    
 });
 
-articulos.forEach(function (articulo) {
+articulos.forEach(function (articulo) { //trae los nombres
     console.log(  articulo.nombre);
 })
 
-var articulosBaratos = articulos.some(function (articulo) {
+var articulosBaratos = articulos.some(function (articulo) {  //validacion T or F
     return articulo.costo<= 800
 })
