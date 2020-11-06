@@ -9,3 +9,7 @@ function nombreCompleto() {
 nombreCompleto(); // Jhon Moofarry
 
 miApellido(); // is not defined 
+
+/*
+sdgf
+*/

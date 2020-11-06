@@ -3,10 +3,12 @@ var numAutos = prompt( `Cuantos autos va guardar?`); //número de autos a guarda
 var autos = []; //Lugar donde guardaremos los autos
 
 //Constructor de autos
-function auto(marca,modelo,annio) {
-    this.marca = marca;
-    this.modelo = modelo;
-    this.annio = annio;
+class auto {
+    constructor(marca, modelo, annio) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.annio = annio;
+    }
 }
 
 //funcion para mostrar un auto

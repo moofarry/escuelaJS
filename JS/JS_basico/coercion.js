@@ -1,6 +1,5 @@
 /* Corcioón implicita
 */
-
 var a = 4 + "7" ;
 var b = 4 * "7" ;
 typeof a
@@ -13,5 +12,4 @@ var b = a + "";
 typeof b
 
 var c = String(a) //cast
-
 var d = Number(c)
