@@ -22,4 +22,4 @@ function printDate(dateNow) {   //esta función solo manda a imprimir la fecha q
     console.log(dateNow)        //y es el callback en realidad
 }
 
-date(printDate) 
+date(printDate)
